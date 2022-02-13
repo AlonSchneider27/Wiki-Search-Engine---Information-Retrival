@@ -17,7 +17,6 @@ These calculations are based on formulas learned in class.
 The main module where the magic happens! You can find here the required functions implemented.
 
 ### <ins><b>search<b><ins>
-This is our best shot. With map@40 score of ~0.5, we follow 3 stages: <br />
 1. Query processing: <br />
 Query expansion & reduction - Using a special NLTK package, we analyze the query's tokens and distinguish wether it is a verb, noun, etc'.
 After carefull examination, we decided to keep only tokens we defined as 'good kinds'(NN, VB,...).
